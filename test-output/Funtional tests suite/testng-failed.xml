@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Funtional tests suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="sanity bucket(failed)">
+    <classes>
+      <class name="Synechron.Selenium_TestNG.TestCase2">
+        <methods>
+          <include name="checkboxhandling"/>
+        </methods>
+      </class> <!-- Synechron.Selenium_TestNG.TestCase2 -->
+      <class name="Synechron.Selenium_TestNG.TestCase3">
+        <methods>
+          <include name="homepage"/>
+        </methods>
+      </class> <!-- Synechron.Selenium_TestNG.TestCase3 -->
+    </classes>
+  </test> <!-- sanity bucket(failed) -->
+</suite> <!-- Failed suite [Funtional tests suite] -->

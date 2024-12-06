@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Funtional tests suite" verbose="1">
+<parameter name = "browser" value= "chrome"/>
+  <test name="sanity bucket">
+  
+ 
+  
+    <classes>
+      <class name="Synechron.Selenium_TestNG.ParametersEg"/>
+
+
+    </classes>
+  </test>
+</suite>
